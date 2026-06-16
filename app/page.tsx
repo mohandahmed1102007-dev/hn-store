@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -92,6 +93,42 @@ export default function Home() {
 buy now
 </a>
     </div>
+
+  </div>
+</section>
+<section className="py-12">
+  <h2 className="text-3xl font-bold text-center mb-8">
+    Categories
+  </h2>
+
+  <div className="grid md:grid-cols-3 gap-6">
+
+    <Link href="/Xbox">
+      <div className="bg-zinc-900 p-6 rounded-xl text-center cursor-pointer hover:bg-zinc-800">
+        <h3 className="text-green-500 text-2xl font-bold">Xbox</h3>
+        <p className="mt-2 text-gray-400">
+          Xbox Games & Gift Cards
+        </p>
+      </div>
+    </Link>
+
+    <Link href="/ps">
+      <div className="bg-zinc-900 p-6 rounded-xl text-center cursor-pointer hover:bg-zinc-800">
+        <h3 className="text-blue-500 text-2xl font-bold">PlayStation</h3>
+        <p className="mt-2 text-gray-400">
+          PS Games & Gift Cards
+        </p>
+      </div>
+    </Link>
+
+    <Link href="/Pubg">
+      <div className="bg-zinc-900 p-6 rounded-xl text-center cursor-pointer hover:bg-zinc-800">
+        <h3 className="text-yellow-500 text-2xl font-bold">PUBG</h3>
+        <p className="mt-2 text-gray-400">
+          UC & PUBG Items
+        </p>
+      </div>
+    </Link>
 
   </div>
 </section>
