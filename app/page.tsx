@@ -65,7 +65,7 @@ export default function Home() {
 
     <div className="bg-zinc-900 rounded-xl p-4">
  <img
-  src="/images/eafc26.webp"
+  src="/images/eafc26.jpg.webp"
   alt="EA FC 26"
   className="rounded-lg mb-4 w-full h-48 object-cover"
 />
@@ -82,7 +82,7 @@ export default function Home() {
 
     <div className="bg-zinc-900 rounded-xl p-4">
      <img
-  src="/images/rdr2.webp"
+  src="/images/rdr2.jpg.webp"
   alt="Red Dead Redemption 2"
   className="rounded-lg mb-4 w-full h-48 object-cover"
 />
