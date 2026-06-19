@@ -64,7 +64,7 @@ export default function Home() {
     </div>
 
     <div className="bg-zinc-900 rounded-xl p-4">
-     <img
+ <img
   src="/images/eafc26.webp"
   alt="EA FC 26"
   className="rounded-lg mb-4 w-full h-48 object-cover"
