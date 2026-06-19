@@ -103,7 +103,7 @@ buy now
 
   <div className="grid md:grid-cols-3 gap-6">
 
-    <Link href="/Xbox">
+    <Link href="/xbox">
       <div className="bg-zinc-900 p-6 rounded-xl text-center cursor-pointer hover:bg-zinc-800">
         <h3 className="text-green-500 text-2xl font-bold">Xbox</h3>
         <p className="mt-2 text-gray-400">
@@ -112,7 +112,7 @@ buy now
       </div>
     </Link>
 
-    <Link href="/ps">
+    <Link href="/playstation">
       <div className="bg-zinc-900 p-6 rounded-xl text-center cursor-pointer hover:bg-zinc-800">
         <h3 className="text-blue-500 text-2xl font-bold">PlayStation</h3>
         <p className="mt-2 text-gray-400">
@@ -121,7 +121,7 @@ buy now
       </div>
     </Link>
 
-    <Link href="/Pubg">
+    <Link href="/pubg">
       <div className="bg-zinc-900 p-6 rounded-xl text-center cursor-pointer hover:bg-zinc-800">
         <h3 className="text-yellow-500 text-2xl font-bold">PUBG</h3>
         <p className="mt-2 text-gray-400">
