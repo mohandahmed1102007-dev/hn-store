@@ -48,9 +48,10 @@ export default function Home() {
 
     <div className="bg-zinc-900 rounded-xl p-4">
       <img
-        src="https://images.unsplash.com/photo-1542751371-adc38448a05e"
-        className="rounded-lg mb-4"
-      />
+  src="/images/gta5.jpg.webp"
+  alt="GTA V"
+  className="rounded-lg mb-4 w-full h-48 object-cover"
+/>  
       <h3 className="text-xl font-bold">GTA V</h3>
       <p className="text-fuchsia-500">600 EGP</p>
       <a
@@ -63,10 +64,11 @@ export default function Home() {
     </div>
 
     <div className="bg-zinc-900 rounded-xl p-4">
-      <img
-        src="https://images.unsplash.com/photo-1511512578047-dfb367046420"
-        className="rounded-lg mb-4"
-      />
+     <img
+  src="/images/eafc26.webp"
+  alt="EA FC 26"
+  className="rounded-lg mb-4 w-full h-48 object-cover"
+/>
       <h3 className="text-xl font-bold">EA FC 26</h3>
       <p className="text-fuchsia-500">1500 EGP</p>
       <a
@@ -79,10 +81,11 @@ export default function Home() {
     </div>
 
     <div className="bg-zinc-900 rounded-xl p-4">
-      <img
-        src="https://images.unsplash.com/photo-1493711662062-fa541adb3fc8"
-        className="rounded-lg mb-4"
-      />
+     <img
+  src="/images/rdr2.webp"
+  alt="Red Dead Redemption 2"
+  className="rounded-lg mb-4 w-full h-48 object-cover"
+/>
       <h3 className="text-xl font-bold">Red Dead Redemption 2</h3>
       <p className="text-fuchsia-500">800 EGP</p>
       <a
